@@ -1,0 +1,64 @@
+{
+  "schema_version": "echo-controlled-synthetic-s0-record-v2",
+  "planning_id": "NAT-057",
+  "role": "S0",
+  "record_id": "NAT-057-RAW-S0",
+  "origin_id": "NAT-057-ORI-S0",
+  "acquisition_id": "NAT-057-ACQ-S0",
+  "synthetic": true,
+  "raw_values": {
+    "complete_queue_vehicles": [
+      4,
+      5,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      15
+    ],
+    "cropped_queue_vehicles": [
+      4,
+      5,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  "correct_reduction": {
+    "formula": "p95(complete_queue_vehicles)",
+    "result": 14
+  },
+  "wrong_reduction": {
+    "formula": "p95(cropped_queue_vehicles)",
+    "result": 8
+  },
+  "hidden_error": "Excluded queued vehicles outside the camera crop."
+}

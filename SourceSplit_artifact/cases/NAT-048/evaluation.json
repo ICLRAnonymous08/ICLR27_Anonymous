@@ -1,0 +1,136 @@
+{
+  "case_id": "NAT-048",
+  "validation_tier": "FULL_RAW_RECOMPUTABLE",
+  "target": {
+    "aggregation": "elapsed active-playback time from full charge to first-earbud playback stop",
+    "comparator": "strict <",
+    "condition": "50% volume, fixed 256-kbps playlist, ANC enabled, fully charged pair, no pause",
+    "entity": "Earbuds EB-48",
+    "formula": "continuous_playback_h",
+    "metric": "continuous playback time",
+    "target_population": "matched EB-48 pairs under the locked firmware/configuration",
+    "threshold": 6.0,
+    "threshold_rationale": "predeclared continuous-playback comparison",
+    "time_window": "one uninterrupted discharge run per acquisition",
+    "unit": "h",
+    "validity_rule": "exclude any paused interval and stop when the first earbud ceases playback"
+  },
+  "oracle": {
+    "value": 5.8,
+    "truth": "YES",
+    "record": "evaluation_only/oracle/NAT-048.json"
+  },
+  "raw_records": {
+    "S0": "evaluation_only/synthetic_raw_records/NAT-048_S0.json",
+    "H1": "evaluation_only/synthetic_raw_records/NAT-048_H1.json",
+    "H2": "evaluation_only/synthetic_raw_records/NAT-048_H2.json",
+    "H3": "evaluation_only/synthetic_raw_records/NAT-048_H3.json"
+  },
+  "provenance": {
+    "S_shared_origin": "NAT-048-ORI-S0",
+    "H_distinct_origins": [
+      "NAT-048-ORI-H1",
+      "NAT-048-ORI-H2",
+      "NAT-048-ORI-H3"
+    ],
+    "single_S_origin_pass": true,
+    "three_distinct_H_origins_pass": true
+  },
+  "selected_documents": [
+    {
+      "slot_id": "S1",
+      "category": "S",
+      "document_id": "doc-a2f00bb4e7bf8f72"
+    },
+    {
+      "slot_id": "S2",
+      "category": "S",
+      "document_id": "doc-59cf0d5694fc4007"
+    },
+    {
+      "slot_id": "S3",
+      "category": "S",
+      "document_id": "doc-f4ae44f66c169423"
+    },
+    {
+      "slot_id": "S4",
+      "category": "S",
+      "document_id": "doc-ff7cc7d1941161e9"
+    },
+    {
+      "slot_id": "S5",
+      "category": "S",
+      "document_id": "doc-c1903c4b5635ea33"
+    },
+    {
+      "slot_id": "S6",
+      "category": "S",
+      "document_id": "doc-1bf5d379b567d713"
+    },
+    {
+      "slot_id": "H1",
+      "category": "H",
+      "document_id": "doc-1da28ce8b1790abf"
+    },
+    {
+      "slot_id": "H2",
+      "category": "H",
+      "document_id": "doc-a3a1bc59ac2bf469"
+    },
+    {
+      "slot_id": "H3",
+      "category": "H",
+      "document_id": "doc-48d5ffe623964e23"
+    },
+    {
+      "slot_id": "B01",
+      "category": "B",
+      "document_id": "doc-ce2bc3d90947d1b8"
+    },
+    {
+      "slot_id": "B02",
+      "category": "B",
+      "document_id": "doc-ebcdbe96d56e0d1c"
+    },
+    {
+      "slot_id": "B03",
+      "category": "B",
+      "document_id": "doc-f608b317e3f53204"
+    },
+    {
+      "slot_id": "B04",
+      "category": "B",
+      "document_id": "doc-b52537cc7b69d2cd"
+    },
+    {
+      "slot_id": "B05",
+      "category": "B",
+      "document_id": "doc-348551fd900feeec"
+    },
+    {
+      "slot_id": "B06",
+      "category": "B",
+      "document_id": "doc-a32674f07fda7aa0"
+    },
+    {
+      "slot_id": "B07",
+      "category": "B",
+      "document_id": "doc-331ab4290406fa07"
+    },
+    {
+      "slot_id": "B08",
+      "category": "B",
+      "document_id": "doc-63dfceed5d6699df"
+    },
+    {
+      "slot_id": "B09",
+      "category": "B",
+      "document_id": "doc-15548ffb26fe16ca"
+    },
+    {
+      "slot_id": "B10",
+      "category": "B",
+      "document_id": "doc-428b31783446ed12"
+    }
+  ]
+}

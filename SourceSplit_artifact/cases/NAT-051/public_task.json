@@ -1,0 +1,6 @@
+{
+  "entity": "Camera CAM-51",
+  "metric": "row readout span",
+  "threshold": 15.0,
+  "comparator": "strict <"
+}

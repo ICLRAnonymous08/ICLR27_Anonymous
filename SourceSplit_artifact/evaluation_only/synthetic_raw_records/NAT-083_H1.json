@@ -1,0 +1,18 @@
+{
+  "acquisition_description": "Westlake Building Performance Laboratory documents the full valid run for Outlet fitting F-9 under the declared target conditions.",
+  "acquisition_id": "NAT-083-ACQ-H1",
+  "computed_result": 9.455867200000002,
+  "formula": "flow_uk_gpm * 4.54609",
+  "planning_id": "NAT-083",
+  "raw_values": {
+    "flow_uk_gpm": 2.08
+  },
+  "record_id": "NAT-083-RAW-H1",
+  "role": "H1",
+  "sample_or_run_id": "NAT-083-RUN-H1",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "retrofit field guide",
+  "visible_publisher": "Westlake Building Performance Laboratory"
+}

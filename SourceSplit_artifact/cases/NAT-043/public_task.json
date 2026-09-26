@@ -1,0 +1,6 @@
+{
+  "entity": "Monitoring well GW-11",
+  "metric": "water-level elevation change",
+  "threshold": 0.5,
+  "comparator": "strict >"
+}

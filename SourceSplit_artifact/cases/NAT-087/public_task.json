@@ -1,0 +1,6 @@
+{
+  "entity": "Strawberry carton SC-8",
+  "metric": "fruit-center precooling time",
+  "threshold": 90.0,
+  "comparator": "strict <"
+}

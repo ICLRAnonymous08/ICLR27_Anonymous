@@ -1,0 +1,11 @@
+{
+  "schema_version": "echo-controlled-synthetic-oracle-record-v1",
+  "planning_id": "NAT-083",
+  "record_id": "NAT-083-ORACLE-REF",
+  "synthetic": true,
+  "raw_values": {
+    "flow_uk_gpm": 2.1
+  },
+  "formula": "flow_uk_gpm * 4.54609",
+  "computed_result": 9.546789
+}

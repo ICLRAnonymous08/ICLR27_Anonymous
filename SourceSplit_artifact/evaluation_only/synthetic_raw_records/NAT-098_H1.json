@@ -1,0 +1,19 @@
+{
+  "acquisition_description": "Oakridge Materials Test Laboratory documents the full valid run for Recycled linerboard RB-9 under the declared target conditions.",
+  "acquisition_id": "NAT-098-ACQ-H1",
+  "computed_result": 44.0,
+  "formula": "mass_gain_g / area_m2",
+  "planning_id": "NAT-098",
+  "raw_values": {
+    "area_m2": 0.1,
+    "mass_gain_g": 4.4
+  },
+  "record_id": "NAT-098-RAW-H1",
+  "role": "H1",
+  "sample_or_run_id": "NAT-098-RUN-H1",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "quality-control record",
+  "visible_publisher": "Oakridge Materials Test Laboratory"
+}

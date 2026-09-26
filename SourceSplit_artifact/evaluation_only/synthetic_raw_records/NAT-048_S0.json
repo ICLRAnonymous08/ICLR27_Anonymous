@@ -1,0 +1,21 @@
+{
+  "schema_version": "echo-controlled-synthetic-s0-record-v1",
+  "planning_id": "NAT-048",
+  "role": "S0",
+  "record_id": "NAT-048-RAW-S0",
+  "acquisition_id": "NAT-048-ACQ-S0",
+  "synthetic": true,
+  "raw_values": {
+    "continuous_playback_h": 5.8,
+    "paused_h": 0.7
+  },
+  "correct_reference": {
+    "oracle_result": 5.8,
+    "oracle_record": "evaluation_only/oracle/NAT-048.json"
+  },
+  "wrong_reduction": {
+    "formula_id": "paused_wall",
+    "result": 6.5
+  },
+  "hidden_error": "Included playback pauses in the reported continuous playback duration."
+}

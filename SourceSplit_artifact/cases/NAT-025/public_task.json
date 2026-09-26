@@ -1,0 +1,6 @@
+{
+  "entity": "VG-4 vacuum handling cell",
+  "metric": "complete pick-transfer-place success proportion",
+  "threshold": 92.0,
+  "comparator": "strict <"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "echo-controlled-synthetic-oracle-record-v2",
+  "planning_id": "NAT-051",
+  "record_id": "NAT-051-ORACLE-REF",
+  "synthetic": true,
+  "raw_values": {
+    "first_row_us": 1200,
+    "last_row_us": 19200,
+    "frame_period_ms": 12.0
+  },
+  "formula": "last_row_us/1000 - first_row_us/1000",
+  "computed_result": 18.0
+}

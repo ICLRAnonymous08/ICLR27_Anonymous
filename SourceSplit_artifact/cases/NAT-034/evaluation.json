@@ -1,0 +1,136 @@
+{
+  "case_id": "NAT-034",
+  "validation_tier": "FULL_RAW_RECOMPUTABLE",
+  "target": {
+    "aggregation": "total process electricity divided by measured water mass removed",
+    "comparator": "strict >",
+    "condition": "locked wet feed, inlet condition and terminal moisture criterion",
+    "entity": "Dryer DR-6",
+    "formula": "energy_kWh / (initial_water_kg-final_water_kg)",
+    "metric": "specific energy per kilogram of water removed",
+    "target_population": "all valid batches of the defined material and load",
+    "threshold": 2.5,
+    "threshold_rationale": "predeclared process-efficiency diagnostic",
+    "time_window": "one complete batch from loading to endpoint",
+    "unit": "kWh/kg water",
+    "validity_rule": "measure starting and final water mass on the same dry-solids basis"
+  },
+  "oracle": {
+    "value": 3.0,
+    "truth": "YES",
+    "record": "evaluation_only/oracle/NAT-034.json"
+  },
+  "raw_records": {
+    "S0": "evaluation_only/synthetic_raw_records/NAT-034_S0.json",
+    "H1": "evaluation_only/synthetic_raw_records/NAT-034_H1.json",
+    "H2": "evaluation_only/synthetic_raw_records/NAT-034_H2.json",
+    "H3": "evaluation_only/synthetic_raw_records/NAT-034_H3.json"
+  },
+  "provenance": {
+    "S_shared_origin": "NAT-034-ORI-S0",
+    "H_distinct_origins": [
+      "NAT-034-ORI-H1",
+      "NAT-034-ORI-H2",
+      "NAT-034-ORI-H3"
+    ],
+    "single_S_origin_pass": true,
+    "three_distinct_H_origins_pass": true
+  },
+  "selected_documents": [
+    {
+      "slot_id": "S1",
+      "category": "S",
+      "document_id": "doc-ac0de21951b2ff09"
+    },
+    {
+      "slot_id": "S2",
+      "category": "S",
+      "document_id": "doc-b2387183adecdc8f"
+    },
+    {
+      "slot_id": "S3",
+      "category": "S",
+      "document_id": "doc-b0e5032bdb25e033"
+    },
+    {
+      "slot_id": "S4",
+      "category": "S",
+      "document_id": "doc-6e6e54890790dd44"
+    },
+    {
+      "slot_id": "S5",
+      "category": "S",
+      "document_id": "doc-a96562880f461c0c"
+    },
+    {
+      "slot_id": "S6",
+      "category": "S",
+      "document_id": "doc-dbef69dcef06ef5e"
+    },
+    {
+      "slot_id": "H1",
+      "category": "H",
+      "document_id": "doc-f11cf9cd31aa6a55"
+    },
+    {
+      "slot_id": "H2",
+      "category": "H",
+      "document_id": "doc-38f622bce6678997"
+    },
+    {
+      "slot_id": "H3",
+      "category": "H",
+      "document_id": "doc-346e5bcc2a697a71"
+    },
+    {
+      "slot_id": "B01",
+      "category": "B",
+      "document_id": "doc-62d734370c1c786b"
+    },
+    {
+      "slot_id": "B02",
+      "category": "B",
+      "document_id": "doc-70d778bec7c5ce84"
+    },
+    {
+      "slot_id": "B03",
+      "category": "B",
+      "document_id": "doc-2a14664c8a2b033b"
+    },
+    {
+      "slot_id": "B04",
+      "category": "B",
+      "document_id": "doc-47805497631118f7"
+    },
+    {
+      "slot_id": "B05",
+      "category": "B",
+      "document_id": "doc-e70e05e47e45595b"
+    },
+    {
+      "slot_id": "B06",
+      "category": "B",
+      "document_id": "doc-3de832891f973114"
+    },
+    {
+      "slot_id": "B07",
+      "category": "B",
+      "document_id": "doc-00640559554f9956"
+    },
+    {
+      "slot_id": "B08",
+      "category": "B",
+      "document_id": "doc-3b02a3e708642735"
+    },
+    {
+      "slot_id": "B09",
+      "category": "B",
+      "document_id": "doc-a34af23393b37ef0"
+    },
+    {
+      "slot_id": "B10",
+      "category": "B",
+      "document_id": "doc-6078c6c1ee04c289"
+    }
+  ]
+}

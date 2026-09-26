@@ -1,0 +1,57 @@
+{
+  "artifact": "ECHO-WEB 10-case audit subset",
+  "scope": "qualitative trace inspection and implementation auditing only",
+  "source_dataset_id": "ECHO_Controlled_100_CLEAN_RC1",
+  "cases": [
+    {
+      "case_id": "NAT-025",
+      "domain": "Industrial systems",
+      "topic": "Complete handling success rate"
+    },
+    {
+      "case_id": "NAT-034",
+      "domain": "Industrial systems",
+      "topic": "Drying energy use"
+    },
+    {
+      "case_id": "NAT-043",
+      "domain": "Environmental monitoring",
+      "topic": "Groundwater depth change"
+    },
+    {
+      "case_id": "NAT-048",
+      "domain": "Consumer devices",
+      "topic": "Headphone battery life"
+    },
+    {
+      "case_id": "NAT-051",
+      "domain": "Consumer devices",
+      "topic": "Camera rolling-readout time"
+    },
+    {
+      "case_id": "NAT-057",
+      "domain": "Mobility systems",
+      "topic": "Intersection queue length"
+    },
+    {
+      "case_id": "NAT-074",
+      "domain": "Cloud/network systems",
+      "topic": "Peak process memory"
+    },
+    {
+      "case_id": "NAT-083",
+      "domain": "Buildings/energy",
+      "topic": "Outlet flow rate"
+    },
+    {
+      "case_id": "NAT-087",
+      "domain": "Agriculture/food",
+      "topic": "Strawberry precooling time"
+    },
+    {
+      "case_id": "NAT-098",
+      "domain": "Materials/packaging",
+      "topic": "Paperboard water absorption"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "entity": "Service process P-6",
+  "metric": "stable-window peak resident memory",
+  "threshold": 500.0,
+  "comparator": "strict <"
+}

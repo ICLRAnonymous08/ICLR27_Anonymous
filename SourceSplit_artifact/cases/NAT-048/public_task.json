@@ -1,0 +1,6 @@
+{
+  "entity": "Earbuds EB-48",
+  "metric": "continuous playback time",
+  "threshold": 6.0,
+  "comparator": "strict <"
+}

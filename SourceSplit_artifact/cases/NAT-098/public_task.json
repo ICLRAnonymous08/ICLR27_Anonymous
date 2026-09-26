@@ -1,0 +1,6 @@
+{
+  "entity": "Recycled linerboard RB-9",
+  "metric": "surface water absorption",
+  "threshold": 40.0,
+  "comparator": "strict >"
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "planning_id": "NAT-025",
+  "role": "H2",
+  "record_id": "NAT-025-RAW-H2",
+  "acquisition_id": "NAT-025-ACQ-H2",
+  "sample_or_run_id": "NAT-025-RUN-H2",
+  "synthetic": true,
+  "acquisition_description": "Factory acceptance team runs a separately randomized workpiece order and records drop/placement outcomes.",
+  "raw_values": {
+    "initiated_trials": 60,
+    "complete_placements": 53
+  },
+  "formula": "100 * complete_placements / initiated_trials",
+  "computed_result": 88.33333333333333,
+  "shared_event_id": null
+}

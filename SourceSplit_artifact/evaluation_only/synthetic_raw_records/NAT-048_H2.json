@@ -1,0 +1,16 @@
+{
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "planning_id": "NAT-048",
+  "role": "H2",
+  "record_id": "NAT-048-RAW-H2",
+  "acquisition_id": "NAT-048-ACQ-H2",
+  "sample_or_run_id": "NAT-048-RUN-H2",
+  "synthetic": true,
+  "acquisition_description": "Independent validation team performs a separately prepared acquisition to fully charge a matched pair, start the frozen playlist and log uninterrupted active playback until the first earbud stops.",
+  "raw_values": {
+    "continuous_playback_h": 5.9
+  },
+  "formula": "continuous_playback_h",
+  "computed_result": 5.9,
+  "shared_event_id": null
+}

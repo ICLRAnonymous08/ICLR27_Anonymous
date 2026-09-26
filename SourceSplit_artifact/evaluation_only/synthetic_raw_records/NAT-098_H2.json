@@ -1,0 +1,19 @@
+{
+  "acquisition_description": "Harbor Product Qualification Centre records a complete acquisition for Recycled linerboard RB-9 under the declared target conditions.",
+  "acquisition_id": "NAT-098-ACQ-H2",
+  "computed_result": 45.6,
+  "formula": "mass_gain_g / area_m2",
+  "planning_id": "NAT-098",
+  "raw_values": {
+    "area_m2": 0.1,
+    "mass_gain_g": 4.56
+  },
+  "record_id": "NAT-098-RAW-H2",
+  "role": "H2",
+  "sample_or_run_id": "NAT-098-RUN-H2",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "supplier technical bulletin",
+  "visible_publisher": "Harbor Product Qualification Centre"
+}

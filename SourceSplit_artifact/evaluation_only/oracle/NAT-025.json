@@ -1,0 +1,12 @@
+{
+  "schema_version": "echo-controlled-synthetic-oracle-record-v1",
+  "planning_id": "NAT-025",
+  "record_id": "NAT-025-ORACLE-REF",
+  "synthetic": true,
+  "raw_values": {
+    "initiated_trials": 100,
+    "complete_placements": 88
+  },
+  "formula": "100 * complete_placements / initiated_trials",
+  "computed_result": 88.0
+}

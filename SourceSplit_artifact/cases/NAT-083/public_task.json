@@ -1,0 +1,6 @@
+{
+  "entity": "Outlet fitting F-9",
+  "metric": "steady outlet flow",
+  "threshold": 9.0,
+  "comparator": "strict >"
+}

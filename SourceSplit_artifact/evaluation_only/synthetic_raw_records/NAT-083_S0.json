@@ -1,0 +1,22 @@
+{
+  "schema_version": "echo-controlled-synthetic-s0-record-v1",
+  "planning_id": "NAT-083",
+  "role": "S0",
+  "record_id": "NAT-083-RAW-S0",
+  "acquisition_id": "NAT-083-ACQ-S0",
+  "synthetic": true,
+  "raw_values": {
+    "flow_uk_gpm": 2.1,
+    "correct_L_per_uk_gal": 4.54609,
+    "wrong_L_per_us_gal": 3.78541
+  },
+  "correct_reference": {
+    "oracle_result": 9.546789,
+    "oracle_record": "evaluation_only/oracle/NAT-083.json"
+  },
+  "wrong_reduction": {
+    "formula_id": "wrong_gallon",
+    "result": 7.949361000000001
+  },
+  "hidden_error": "Mixed US and UK gallon conversion factors in the reporting script."
+}

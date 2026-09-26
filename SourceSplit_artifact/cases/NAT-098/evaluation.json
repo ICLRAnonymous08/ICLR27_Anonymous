@@ -1,0 +1,136 @@
+{
+  "case_id": "NAT-098",
+  "validation_tier": "FULL_RAW_RECOMPUTABLE",
+  "target": {
+    "aggregation": "mass gain / exposed area",
+    "comparator": "strict >",
+    "condition": "specified side, conditioned sheet, 60-second exposure and 0.10 m² clamp",
+    "entity": "Recycled linerboard RB-9",
+    "formula": "mass_gain_g / exposed_area_m2",
+    "metric": "surface water absorption",
+    "target_population": "valid exposed specimens from the locked paper lot",
+    "threshold": 40.0,
+    "threshold_rationale": "predeclared water-absorption comparison",
+    "time_window": "one fresh sheet specimen per acquisition",
+    "unit": "g/m²",
+    "validity_rule": "use the area of the actual clamp and preserve tare/dry/wet masses"
+  },
+  "oracle": {
+    "value": 45.0,
+    "truth": "YES",
+    "record": "evaluation_only/oracle/NAT-098.json"
+  },
+  "raw_records": {
+    "S0": "evaluation_only/synthetic_raw_records/NAT-098_S0.json",
+    "H1": "evaluation_only/synthetic_raw_records/NAT-098_H1.json",
+    "H2": "evaluation_only/synthetic_raw_records/NAT-098_H2.json",
+    "H3": "evaluation_only/synthetic_raw_records/NAT-098_H3.json"
+  },
+  "provenance": {
+    "S_shared_origin": "NAT-098-ORI-S0",
+    "H_distinct_origins": [
+      "NAT-098-ORI-H1",
+      "NAT-098-ORI-H2",
+      "NAT-098-ORI-H3"
+    ],
+    "single_S_origin_pass": true,
+    "three_distinct_H_origins_pass": true
+  },
+  "selected_documents": [
+    {
+      "slot_id": "S1",
+      "category": "S",
+      "document_id": "doc-2f0a6d117375a225"
+    },
+    {
+      "slot_id": "S2",
+      "category": "S",
+      "document_id": "doc-3a1828f6b4ca5aa7"
+    },
+    {
+      "slot_id": "S3",
+      "category": "S",
+      "document_id": "doc-fd19179f52b61d07"
+    },
+    {
+      "slot_id": "S4",
+      "category": "S",
+      "document_id": "doc-3877074637b11763"
+    },
+    {
+      "slot_id": "S5",
+      "category": "S",
+      "document_id": "doc-dbd75a8a5395dee0"
+    },
+    {
+      "slot_id": "S6",
+      "category": "S",
+      "document_id": "doc-862325dd2c35ecd6"
+    },
+    {
+      "slot_id": "H1",
+      "category": "H",
+      "document_id": "doc-f9a0728a171543d0"
+    },
+    {
+      "slot_id": "H2",
+      "category": "H",
+      "document_id": "doc-56b75228ae133901"
+    },
+    {
+      "slot_id": "H3",
+      "category": "H",
+      "document_id": "doc-bc9014a73e4548b8"
+    },
+    {
+      "slot_id": "B01",
+      "category": "B",
+      "document_id": "doc-ed40714cb01690b6"
+    },
+    {
+      "slot_id": "B02",
+      "category": "B",
+      "document_id": "doc-5b8cfad620365b98"
+    },
+    {
+      "slot_id": "B03",
+      "category": "B",
+      "document_id": "doc-be959776caeabf69"
+    },
+    {
+      "slot_id": "B04",
+      "category": "B",
+      "document_id": "doc-9999ec116c898a10"
+    },
+    {
+      "slot_id": "B05",
+      "category": "B",
+      "document_id": "doc-630711fc5456646e"
+    },
+    {
+      "slot_id": "B06",
+      "category": "B",
+      "document_id": "doc-913b4c638c7c80e6"
+    },
+    {
+      "slot_id": "B07",
+      "category": "B",
+      "document_id": "doc-a82f07377c65855b"
+    },
+    {
+      "slot_id": "B08",
+      "category": "B",
+      "document_id": "doc-96241368fb3c47ed"
+    },
+    {
+      "slot_id": "B09",
+      "category": "B",
+      "document_id": "doc-8fe0b25f5cf82367"
+    },
+    {
+      "slot_id": "B10",
+      "category": "B",
+      "document_id": "doc-44eb7d9988bdb118"
+    }
+  ]
+}

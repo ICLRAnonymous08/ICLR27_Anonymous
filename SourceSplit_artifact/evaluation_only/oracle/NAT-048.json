@@ -1,0 +1,11 @@
+{
+  "schema_version": "echo-controlled-synthetic-oracle-record-v1",
+  "planning_id": "NAT-048",
+  "record_id": "NAT-048-ORACLE-REF",
+  "synthetic": true,
+  "raw_values": {
+    "continuous_playback_h": 5.8
+  },
+  "formula": "continuous_playback_h",
+  "computed_result": 5.8
+}

@@ -1,0 +1,5 @@
+{
+  "case_id": "NAT-074",
+  "question": "Determine whether the following proposition is true.\nEntity: Service process P-6\nMetric: stable-window peak resident memory\nCondition: fixed workload, process tree boundary, warm-up and six-sample steady window\nTime window: one fresh process run per acquisition\nTarget population: all RSS samples in the steady window\nAggregation: maximum process RSS in valid samples\nValidity rule: measure operating-system resident set for the full target process, not runtime heap only\nComparison: strict < 500.0 MiB RSS",
+  "question_sha256": "07a4770ac9922edd10018df2a3dbe822ffc01dba305363ebf86ce63604ed57d1"
+}

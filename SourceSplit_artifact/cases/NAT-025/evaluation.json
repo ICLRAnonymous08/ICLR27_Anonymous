@@ -1,0 +1,136 @@
+{
+  "case_id": "NAT-025",
+  "validation_tier": "FULL_RAW_RECOMPUTABLE",
+  "target": {
+    "aggregation": "successful complete placements / all initiated trials × 100",
+    "comparator": "strict <",
+    "condition": "same rigid workpiece set, initial pose distribution, vacuum setting, transfer path, speed, and final placement tolerance",
+    "entity": "VG-4 vacuum handling cell",
+    "formula": "100 * complete_placements / initiated_trials",
+    "metric": "complete pick-transfer-place success proportion",
+    "target_population": "all initiated handling trials under the locked recipe",
+    "threshold": 92.0,
+    "threshold_rationale": "predeclared engineering comparison target, not a safety or certification limit",
+    "time_window": "one locked 50–75-trial commissioning session per acquisition",
+    "unit": "%",
+    "validity_rule": "a success requires pick-up, uninterrupted transfer, and placement within tolerance; aborted trials and in-transit drops remain in the denominator"
+  },
+  "oracle": {
+    "value": 88.0,
+    "truth": "YES",
+    "record": "evaluation_only/oracle/NAT-025.json"
+  },
+  "raw_records": {
+    "S0": "evaluation_only/synthetic_raw_records/NAT-025_S0.json",
+    "H1": "evaluation_only/synthetic_raw_records/NAT-025_H1.json",
+    "H2": "evaluation_only/synthetic_raw_records/NAT-025_H2.json",
+    "H3": "evaluation_only/synthetic_raw_records/NAT-025_H3.json"
+  },
+  "provenance": {
+    "S_shared_origin": "NAT-025-ORI-S0",
+    "H_distinct_origins": [
+      "NAT-025-ORI-H1",
+      "NAT-025-ORI-H2",
+      "NAT-025-ORI-H3"
+    ],
+    "single_S_origin_pass": true,
+    "three_distinct_H_origins_pass": true
+  },
+  "selected_documents": [
+    {
+      "slot_id": "S1",
+      "category": "S",
+      "document_id": "doc-0d318daf7858b49c"
+    },
+    {
+      "slot_id": "S2",
+      "category": "S",
+      "document_id": "doc-972435e1ea8bd6be"
+    },
+    {
+      "slot_id": "S3",
+      "category": "S",
+      "document_id": "doc-0a326c8d545ede1f"
+    },
+    {
+      "slot_id": "S4",
+      "category": "S",
+      "document_id": "doc-d0fb37f39a9b58f6"
+    },
+    {
+      "slot_id": "S5",
+      "category": "S",
+      "document_id": "doc-11acc5eb1d763c80"
+    },
+    {
+      "slot_id": "S6",
+      "category": "S",
+      "document_id": "doc-77fddb5aa56906c0"
+    },
+    {
+      "slot_id": "H1",
+      "category": "H",
+      "document_id": "doc-f34819b7caee6d4e"
+    },
+    {
+      "slot_id": "H2",
+      "category": "H",
+      "document_id": "doc-6511896b62b41ac8"
+    },
+    {
+      "slot_id": "H3",
+      "category": "H",
+      "document_id": "doc-e91461882882ce31"
+    },
+    {
+      "slot_id": "B01",
+      "category": "B",
+      "document_id": "doc-d8e986daa86161d8"
+    },
+    {
+      "slot_id": "B02",
+      "category": "B",
+      "document_id": "doc-a2f16f21f8c08f5b"
+    },
+    {
+      "slot_id": "B03",
+      "category": "B",
+      "document_id": "doc-b39a08d30cd2ac2a"
+    },
+    {
+      "slot_id": "B04",
+      "category": "B",
+      "document_id": "doc-9332ee1c144e36bf"
+    },
+    {
+      "slot_id": "B05",
+      "category": "B",
+      "document_id": "doc-8ff71a71677f6b47"
+    },
+    {
+      "slot_id": "B06",
+      "category": "B",
+      "document_id": "doc-6bb2c5f516d76353"
+    },
+    {
+      "slot_id": "B07",
+      "category": "B",
+      "document_id": "doc-dc3259dcf8bc46fc"
+    },
+    {
+      "slot_id": "B08",
+      "category": "B",
+      "document_id": "doc-b73daa78885c45e0"
+    },
+    {
+      "slot_id": "B09",
+      "category": "B",
+      "document_id": "doc-0701bb145f2b99a3"
+    },
+    {
+      "slot_id": "B10",
+      "category": "B",
+      "document_id": "doc-3921147a9a5bb431"
+    }
+  ]
+}

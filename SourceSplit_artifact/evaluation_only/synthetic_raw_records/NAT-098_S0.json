@@ -1,0 +1,22 @@
+{
+  "schema_version": "echo-controlled-synthetic-s0-record-v1",
+  "planning_id": "NAT-098",
+  "role": "S0",
+  "record_id": "NAT-098-RAW-S0",
+  "acquisition_id": "NAT-098-ACQ-S0",
+  "synthetic": true,
+  "raw_values": {
+    "mass_gain_g": 4.5,
+    "actual_area_m2": 0.1,
+    "wrong_fixture_area_m2": 0.15
+  },
+  "correct_reference": {
+    "oracle_result": 45.0,
+    "oracle_record": "evaluation_only/oracle/NAT-098.json"
+  },
+  "wrong_reduction": {
+    "formula_id": "wrong_area_absorption",
+    "result": 30.0
+  },
+  "hidden_error": "Reused the area for a different fixture size, yielding an incorrect per-area reduction."
+}

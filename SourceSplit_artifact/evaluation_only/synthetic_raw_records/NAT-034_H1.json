@@ -1,0 +1,20 @@
+{
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "planning_id": "NAT-034",
+  "role": "H1",
+  "record_id": "NAT-034-RAW-H1",
+  "origin_id": "NAT-034-ORI-H1",
+  "acquisition_id": "NAT-034-ACQ-H1",
+  "sample_or_run_id": "NAT-034-RUN-H1",
+  "synthetic": true,
+  "acquisition_description": "Process lab A meters a complete batch and weighs moisture loss.",
+  "raw_values": {
+    "energy_kWh": 5.9,
+    "initial_water_kg": 3.45,
+    "final_water_kg": 1.5,
+    "wet_feed_kg": 100
+  },
+  "formula": "energy_kWh / (initial_water_kg-final_water_kg)",
+  "computed_result": 3.0256410256410255,
+  "shared_event_id": null
+}

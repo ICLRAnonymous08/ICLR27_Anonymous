@@ -1,0 +1,19 @@
+{
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "planning_id": "NAT-043",
+  "role": "H3",
+  "record_id": "NAT-043-RAW-H3",
+  "origin_id": "NAT-043-ORI-H3",
+  "acquisition_id": "NAT-043-ACQ-H3",
+  "sample_or_run_id": "NAT-043-RUN-H3",
+  "synthetic": true,
+  "acquisition_description": "Audit team C obtains a separate paired-date pressure-transducer record tied to the datum.",
+  "raw_values": {
+    "datum_elevation_m": 102.0,
+    "earlier_depth_m": 6.81,
+    "later_depth_m": 6.02
+  },
+  "formula": "later datum elevation - earlier datum elevation",
+  "computed_result": 0.7900000000000063,
+  "shared_event_id": null
+}

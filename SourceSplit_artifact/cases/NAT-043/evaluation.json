@@ -1,0 +1,136 @@
+{
+  "case_id": "NAT-043",
+  "validation_tier": "FULL_RAW_RECOMPUTABLE",
+  "target": {
+    "aggregation": "later water elevation minus earlier water elevation",
+    "comparator": "strict >",
+    "condition": "same well and common surveyed vertical datum",
+    "entity": "Monitoring well GW-11",
+    "formula": "(datum_elevation_m-later_depth_m) - (datum_elevation_m-earlier_depth_m)",
+    "metric": "water-level elevation change",
+    "target_population": "manual tape measurements after stabilization on both dates",
+    "threshold": 0.5,
+    "threshold_rationale": "predeclared groundwater-change comparison",
+    "time_window": "two locked measurement dates",
+    "unit": "m",
+    "validity_rule": "apply the same measuring-point correction and datum on both dates"
+  },
+  "oracle": {
+    "value": 0.7999999999999972,
+    "truth": "YES",
+    "record": "evaluation_only/oracle/NAT-043.json"
+  },
+  "raw_records": {
+    "S0": "evaluation_only/synthetic_raw_records/NAT-043_S0.json",
+    "H1": "evaluation_only/synthetic_raw_records/NAT-043_H1.json",
+    "H2": "evaluation_only/synthetic_raw_records/NAT-043_H2.json",
+    "H3": "evaluation_only/synthetic_raw_records/NAT-043_H3.json"
+  },
+  "provenance": {
+    "S_shared_origin": "NAT-043-ORI-S0",
+    "H_distinct_origins": [
+      "NAT-043-ORI-H1",
+      "NAT-043-ORI-H2",
+      "NAT-043-ORI-H3"
+    ],
+    "single_S_origin_pass": true,
+    "three_distinct_H_origins_pass": true
+  },
+  "selected_documents": [
+    {
+      "slot_id": "S1",
+      "category": "S",
+      "document_id": "doc-c5929e783cb915c6"
+    },
+    {
+      "slot_id": "S2",
+      "category": "S",
+      "document_id": "doc-599c6b2e477638bd"
+    },
+    {
+      "slot_id": "S3",
+      "category": "S",
+      "document_id": "doc-a9b7c8787cab0c3e"
+    },
+    {
+      "slot_id": "S4",
+      "category": "S",
+      "document_id": "doc-2eb645fc95ff636b"
+    },
+    {
+      "slot_id": "S5",
+      "category": "S",
+      "document_id": "doc-554ccdc5f5fea5c0"
+    },
+    {
+      "slot_id": "S6",
+      "category": "S",
+      "document_id": "doc-e569fc005329b693"
+    },
+    {
+      "slot_id": "H1",
+      "category": "H",
+      "document_id": "doc-ef863dd14b1d6693"
+    },
+    {
+      "slot_id": "H2",
+      "category": "H",
+      "document_id": "doc-6af661fa2775deab"
+    },
+    {
+      "slot_id": "H3",
+      "category": "H",
+      "document_id": "doc-c2cea5b7b09fa8cf"
+    },
+    {
+      "slot_id": "B01",
+      "category": "B",
+      "document_id": "doc-0361576528ecdd53"
+    },
+    {
+      "slot_id": "B02",
+      "category": "B",
+      "document_id": "doc-460515a413cf7294"
+    },
+    {
+      "slot_id": "B03",
+      "category": "B",
+      "document_id": "doc-5d795588275e530e"
+    },
+    {
+      "slot_id": "B04",
+      "category": "B",
+      "document_id": "doc-ec7cfad36389b7a6"
+    },
+    {
+      "slot_id": "B05",
+      "category": "B",
+      "document_id": "doc-aca68bb13a3a5c07"
+    },
+    {
+      "slot_id": "B06",
+      "category": "B",
+      "document_id": "doc-9d97667ddc7836c5"
+    },
+    {
+      "slot_id": "B07",
+      "category": "B",
+      "document_id": "doc-2c52c1e50fadca1c"
+    },
+    {
+      "slot_id": "B08",
+      "category": "B",
+      "document_id": "doc-72db3f4fbd34f997"
+    },
+    {
+      "slot_id": "B09",
+      "category": "B",
+      "document_id": "doc-af827e28f5fdef89"
+    },
+    {
+      "slot_id": "B10",
+      "category": "B",
+      "document_id": "doc-ba0590f639099b47"
+    }
+  ]
+}

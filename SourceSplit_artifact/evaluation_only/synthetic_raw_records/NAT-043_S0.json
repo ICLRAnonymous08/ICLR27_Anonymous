@@ -1,0 +1,25 @@
+{
+  "schema_version": "echo-controlled-synthetic-s0-record-v2",
+  "planning_id": "NAT-043",
+  "role": "S0",
+  "record_id": "NAT-043-RAW-S0",
+  "origin_id": "NAT-043-ORI-S0",
+  "acquisition_id": "NAT-043-ACQ-S0",
+  "synthetic": true,
+  "raw_values": {
+    "datum_elevation_m": 102.0,
+    "earlier_depth_m": 6.8,
+    "later_depth_m": 6.0,
+    "wrong_earlier_reference_depth_m": 6.3,
+    "wrong_later_reference_depth_m": 6.0
+  },
+  "correct_reduction": {
+    "formula": "later datum elevation - earlier datum elevation",
+    "result": 0.7999999999999972
+  },
+  "wrong_reduction": {
+    "formula": "wrong_earlier_reference_depth - wrong_later_reference_depth",
+    "result": 0.2999999999999998
+  },
+  "hidden_error": "Confused wellhead-relative depths with a common elevation datum and omitted the reference-datum correction."
+}

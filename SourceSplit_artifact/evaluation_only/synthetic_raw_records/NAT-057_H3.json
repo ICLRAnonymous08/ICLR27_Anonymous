@@ -1,0 +1,38 @@
+{
+  "acquisition_description": "Junction Operations Audit conducts a separate observer count for IA-57 beyond the fixed camera frame.",
+  "acquisition_id": "NAT-057-ACQ-H3",
+  "computed_result": 15,
+  "formula": "p95(complete_queue_vehicles)",
+  "origin_id": "NAT-057-ORI-H3",
+  "planning_id": "NAT-057",
+  "raw_values": {
+    "queue_vehicles": [
+      4,
+      4,
+      6,
+      6,
+      7,
+      8,
+      8,
+      9,
+      9,
+      10,
+      10,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      14,
+      15,
+      15
+    ]
+  },
+  "record_id": "NAT-057-RAW-H3",
+  "role": "H3",
+  "sample_or_run_id": "NAT-057-RUN-H3",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "shared_event_id": null,
+  "synthetic": true
+}

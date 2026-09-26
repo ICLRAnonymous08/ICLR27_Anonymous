@@ -1,0 +1,19 @@
+{
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "planning_id": "NAT-043",
+  "role": "H1",
+  "record_id": "NAT-043-RAW-H1",
+  "origin_id": "NAT-043-ORI-H1",
+  "acquisition_id": "NAT-043-ACQ-H1",
+  "sample_or_run_id": "NAT-043-RUN-H1",
+  "synthetic": true,
+  "acquisition_description": "Hydrogeologist A measures both dates from the surveyed mark.",
+  "raw_values": {
+    "datum_elevation_m": 102.0,
+    "earlier_depth_m": 6.82,
+    "later_depth_m": 6.03
+  },
+  "formula": "later datum elevation - earlier datum elevation",
+  "computed_result": 0.789999999999992,
+  "shared_event_id": null
+}

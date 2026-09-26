@@ -1,0 +1,5 @@
+{
+  "case_id": "NAT-057",
+  "question": "Determine whether the following proposition is true.\nEntity: Intersection approach IA-57\nMetric: 95th percentile queue length\nCondition: fixed approach lane, queue definition and peak window\nTime window: 20 valid consecutive signal cycles\nTarget population: complete queue extending beyond the camera crop boundary\nAggregation: nearest-rank p95 of complete-lane queue counts\nValidity rule: counts must cover the full mapped lane and the same cycle sampling instant\nComparison: strict < 10.0 vehicles",
+  "question_sha256": "68a5d17f7fec63c5b47f02ff1da886a41f23f24a95c610b33d300c6b28cbe82f"
+}

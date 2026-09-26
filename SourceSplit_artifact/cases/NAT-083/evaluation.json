@@ -1,0 +1,136 @@
+{
+  "case_id": "NAT-083",
+  "validation_tier": "FULL_RAW_RECOMPUTABLE",
+  "target": {
+    "aggregation": "imperial gallons per minute × 4.54609 L/imperial gallon",
+    "comparator": "strict >",
+    "condition": "specified supply pressure, fully open operating state and stabilized collection",
+    "entity": "Outlet fitting F-9",
+    "formula": "flow_uk_gpm * 4.54609",
+    "metric": "steady outlet flow",
+    "target_population": "all collected water during the timed interval",
+    "threshold": 9.0,
+    "threshold_rationale": "predeclared service-flow comparison",
+    "time_window": "one timed steady-flow collection per acquisition",
+    "unit": "L/min",
+    "validity_rule": "record gallon convention explicitly and use the matching conversion factor"
+  },
+  "oracle": {
+    "value": 9.546789,
+    "truth": "YES",
+    "record": "evaluation_only/oracle/NAT-083.json"
+  },
+  "raw_records": {
+    "S0": "evaluation_only/synthetic_raw_records/NAT-083_S0.json",
+    "H1": "evaluation_only/synthetic_raw_records/NAT-083_H1.json",
+    "H2": "evaluation_only/synthetic_raw_records/NAT-083_H2.json",
+    "H3": "evaluation_only/synthetic_raw_records/NAT-083_H3.json"
+  },
+  "provenance": {
+    "S_shared_origin": "NAT-083-ORI-S0",
+    "H_distinct_origins": [
+      "NAT-083-ORI-H1",
+      "NAT-083-ORI-H2",
+      "NAT-083-ORI-H3"
+    ],
+    "single_S_origin_pass": true,
+    "three_distinct_H_origins_pass": true
+  },
+  "selected_documents": [
+    {
+      "slot_id": "S1",
+      "category": "S",
+      "document_id": "doc-26e9536aab5148ac"
+    },
+    {
+      "slot_id": "S2",
+      "category": "S",
+      "document_id": "doc-12aac58f6736c71d"
+    },
+    {
+      "slot_id": "S3",
+      "category": "S",
+      "document_id": "doc-5c33de4a81ae9f1b"
+    },
+    {
+      "slot_id": "S4",
+      "category": "S",
+      "document_id": "doc-f2264b5da7823073"
+    },
+    {
+      "slot_id": "S5",
+      "category": "S",
+      "document_id": "doc-ce09b678657129df"
+    },
+    {
+      "slot_id": "S6",
+      "category": "S",
+      "document_id": "doc-edfcc06d17d843f3"
+    },
+    {
+      "slot_id": "H1",
+      "category": "H",
+      "document_id": "doc-464a079803822578"
+    },
+    {
+      "slot_id": "H2",
+      "category": "H",
+      "document_id": "doc-0e4f1622a3836d4b"
+    },
+    {
+      "slot_id": "H3",
+      "category": "H",
+      "document_id": "doc-39b430f4c21921c6"
+    },
+    {
+      "slot_id": "B01",
+      "category": "B",
+      "document_id": "doc-6ee355c1aae4d130"
+    },
+    {
+      "slot_id": "B02",
+      "category": "B",
+      "document_id": "doc-750962aaa568ce81"
+    },
+    {
+      "slot_id": "B03",
+      "category": "B",
+      "document_id": "doc-365efa7ad845996f"
+    },
+    {
+      "slot_id": "B04",
+      "category": "B",
+      "document_id": "doc-759d3dd440f063a9"
+    },
+    {
+      "slot_id": "B05",
+      "category": "B",
+      "document_id": "doc-64f5ac49cf579a9e"
+    },
+    {
+      "slot_id": "B06",
+      "category": "B",
+      "document_id": "doc-a54e8e47f34c832d"
+    },
+    {
+      "slot_id": "B07",
+      "category": "B",
+      "document_id": "doc-48e37dee392a2bb7"
+    },
+    {
+      "slot_id": "B08",
+      "category": "B",
+      "document_id": "doc-3ebf6edfc5e531e2"
+    },
+    {
+      "slot_id": "B09",
+      "category": "B",
+      "document_id": "doc-f33da46192d9cddb"
+    },
+    {
+      "slot_id": "B10",
+      "category": "B",
+      "document_id": "doc-e4f81f8cb93ff340"
+    }
+  ]
+}

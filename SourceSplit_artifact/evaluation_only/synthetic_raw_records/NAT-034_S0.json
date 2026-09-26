@@ -1,0 +1,24 @@
+{
+  "schema_version": "echo-controlled-synthetic-s0-record-v2",
+  "planning_id": "NAT-034",
+  "role": "S0",
+  "record_id": "NAT-034-RAW-S0",
+  "origin_id": "NAT-034-ORI-S0",
+  "acquisition_id": "NAT-034-ACQ-S0",
+  "synthetic": true,
+  "raw_values": {
+    "energy_kWh": 6.0,
+    "initial_water_kg": 3.5,
+    "final_water_kg": 1.5,
+    "wet_feed_kg": 100
+  },
+  "correct_reduction": {
+    "formula": "energy_kWh / (initial_water_kg-final_water_kg)",
+    "result": 3.0
+  },
+  "wrong_reduction": {
+    "formula": "energy_kWh / wet_feed_kg",
+    "result": 0.06
+  },
+  "hidden_error": "Used wet-feed mass as the denominator instead of the mass of water actually removed."
+}

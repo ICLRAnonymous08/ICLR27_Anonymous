@@ -1,0 +1,6 @@
+{
+  "entity": "Intersection approach IA-57",
+  "metric": "95th percentile queue length",
+  "threshold": 10.0,
+  "comparator": "strict <"
+}

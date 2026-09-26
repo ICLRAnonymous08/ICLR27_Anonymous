@@ -1,0 +1,19 @@
+{
+  "acquisition_description": "Harbor Postharvest Measurement Centre measures the locked endpoint for Strawberry carton SC-8 under the declared target conditions.",
+  "acquisition_id": "NAT-087-ACQ-H2",
+  "computed_result": 122.0,
+  "formula": "fruit_center_target_crossing_min - cooling_start_min",
+  "planning_id": "NAT-087",
+  "raw_values": {
+    "cooling_start_min": 0.0,
+    "fruit_center_target_crossing_min": 122.0
+  },
+  "record_id": "NAT-087-RAW-H2",
+  "role": "H2",
+  "sample_or_run_id": "NAT-087-RUN-H2",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "extension service bulletin",
+  "visible_publisher": "Harbor Postharvest Measurement Centre"
+}

@@ -1,0 +1,136 @@
+{
+  "case_id": "NAT-074",
+  "validation_tier": "FULL_RAW_RECOMPUTABLE",
+  "target": {
+    "aggregation": "maximum process RSS in valid samples",
+    "comparator": "strict <",
+    "condition": "fixed workload, process tree boundary, warm-up and six-sample steady window",
+    "entity": "Service process P-6",
+    "formula": "max(rss_mib)",
+    "metric": "stable-window peak resident memory",
+    "target_population": "all RSS samples in the steady window",
+    "threshold": 500.0,
+    "threshold_rationale": "predeclared memory-budget comparison",
+    "time_window": "one fresh process run per acquisition",
+    "unit": "MiB RSS",
+    "validity_rule": "measure operating-system resident set for the full target process, not runtime heap only"
+  },
+  "oracle": {
+    "value": 620,
+    "truth": "NO",
+    "record": "evaluation_only/oracle/NAT-074.json"
+  },
+  "raw_records": {
+    "S0": "evaluation_only/synthetic_raw_records/NAT-074_S0.json",
+    "H1": "evaluation_only/synthetic_raw_records/NAT-074_H1.json",
+    "H2": "evaluation_only/synthetic_raw_records/NAT-074_H2.json",
+    "H3": "evaluation_only/synthetic_raw_records/NAT-074_H3.json"
+  },
+  "provenance": {
+    "S_shared_origin": "NAT-074-ORI-S0",
+    "H_distinct_origins": [
+      "NAT-074-ORI-H1",
+      "NAT-074-ORI-H2",
+      "NAT-074-ORI-H3"
+    ],
+    "single_S_origin_pass": true,
+    "three_distinct_H_origins_pass": true
+  },
+  "selected_documents": [
+    {
+      "slot_id": "S1",
+      "category": "S",
+      "document_id": "doc-945039b694c16d9d"
+    },
+    {
+      "slot_id": "S2",
+      "category": "S",
+      "document_id": "doc-da408783a715eef8"
+    },
+    {
+      "slot_id": "S3",
+      "category": "S",
+      "document_id": "doc-f8a5c30f072084f0"
+    },
+    {
+      "slot_id": "S4",
+      "category": "S",
+      "document_id": "doc-c808bd1dd34c3f6b"
+    },
+    {
+      "slot_id": "S5",
+      "category": "S",
+      "document_id": "doc-c163adf7db851ff2"
+    },
+    {
+      "slot_id": "S6",
+      "category": "S",
+      "document_id": "doc-2af4a7a70c701970"
+    },
+    {
+      "slot_id": "H1",
+      "category": "H",
+      "document_id": "doc-365082de64c26514"
+    },
+    {
+      "slot_id": "H2",
+      "category": "H",
+      "document_id": "doc-c7a17d2bf8f76162"
+    },
+    {
+      "slot_id": "H3",
+      "category": "H",
+      "document_id": "doc-06467b6d1a21abaf"
+    },
+    {
+      "slot_id": "B01",
+      "category": "B",
+      "document_id": "doc-45b50c598a82585e"
+    },
+    {
+      "slot_id": "B02",
+      "category": "B",
+      "document_id": "doc-df68286a7c797502"
+    },
+    {
+      "slot_id": "B03",
+      "category": "B",
+      "document_id": "doc-59d375cfc2ee55b3"
+    },
+    {
+      "slot_id": "B04",
+      "category": "B",
+      "document_id": "doc-aa796ae4a60be615"
+    },
+    {
+      "slot_id": "B05",
+      "category": "B",
+      "document_id": "doc-d5b47da083d4d365"
+    },
+    {
+      "slot_id": "B06",
+      "category": "B",
+      "document_id": "doc-ce8a79585af7fbb1"
+    },
+    {
+      "slot_id": "B07",
+      "category": "B",
+      "document_id": "doc-990cf54674119a29"
+    },
+    {
+      "slot_id": "B08",
+      "category": "B",
+      "document_id": "doc-4c8f302475b3ff5d"
+    },
+    {
+      "slot_id": "B09",
+      "category": "B",
+      "document_id": "doc-fa2b393025d526be"
+    },
+    {
+      "slot_id": "B10",
+      "category": "B",
+      "document_id": "doc-b507edc2234909fa"
+    }
+  ]
+}

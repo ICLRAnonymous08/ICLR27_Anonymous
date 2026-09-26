@@ -1,0 +1,18 @@
+{
+  "acquisition_description": "Redwood Energy Systems Centre measures the locked endpoint for Outlet fitting F-9 under the declared target conditions.",
+  "acquisition_id": "NAT-083-ACQ-H3",
+  "computed_result": 9.546789,
+  "formula": "flow_uk_gpm * 4.54609",
+  "planning_id": "NAT-083",
+  "raw_values": {
+    "flow_uk_gpm": 2.1
+  },
+  "record_id": "NAT-083-RAW-H3",
+  "role": "H3",
+  "sample_or_run_id": "NAT-083-RUN-H3",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "contractor closeout record",
+  "visible_publisher": "Redwood Energy Systems Centre"
+}

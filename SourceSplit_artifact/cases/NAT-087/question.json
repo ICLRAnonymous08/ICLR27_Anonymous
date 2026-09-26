@@ -1,0 +1,5 @@
+{
+  "case_id": "NAT-087",
+  "question": "Determine whether the following proposition is true.\nEntity: Strawberry carton SC-8\nMetric: fruit-center precooling time\nCondition: fixed carton pattern, forced-air speed, initial fruit temperature and center thermocouple\nTime window: one fresh carton cooling run per acquisition\nTarget population: designated center fruit in each matched carton\nAggregation: elapsed time until the designated center fruit reaches target temperature\nValidity rule: stop only at fruit-center target crossing; air-temperature crossing is not completion\nComparison: strict < 90.0 min",
+  "question_sha256": "ec8df5db9196a8e5214217faf4ba4521bc8a575ddd2e7f093718a985cc1bdfa7"
+}

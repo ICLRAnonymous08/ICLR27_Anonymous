@@ -1,0 +1,5 @@
+{
+  "case_id": "NAT-025",
+  "question": "Determine whether the following proposition is true.\nEntity: VG-4 vacuum handling cell\nMetric: complete pick-transfer-place success proportion\nCondition: same rigid workpiece set, initial pose distribution, vacuum setting, transfer path, speed, and final placement tolerance\nTime window: one locked 50–75-trial commissioning session per acquisition\nTarget population: all initiated handling trials under the locked recipe\nAggregation: successful complete placements / all initiated trials × 100\nValidity rule: a success requires pick-up, uninterrupted transfer, and placement within tolerance; aborted trials and in-transit drops remain in the denominator\nComparison: strict < 92.0 %",
+  "question_sha256": "322942748c02fd8706d2019b99600e1e233bbffc3301571731ec255a9859024b"
+}

@@ -1,0 +1,19 @@
+{
+  "acquisition_description": "Stonebridge Applied Metrology Service measures the locked endpoint for Recycled linerboard RB-9 under the declared target conditions.",
+  "acquisition_id": "NAT-098-ACQ-H3",
+  "computed_result": 44.4,
+  "formula": "mass_gain_g / area_m2",
+  "planning_id": "NAT-098",
+  "raw_values": {
+    "area_m2": 0.1,
+    "mass_gain_g": 4.44
+  },
+  "record_id": "NAT-098-RAW-H3",
+  "role": "H3",
+  "sample_or_run_id": "NAT-098-RUN-H3",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "method worksheet",
+  "visible_publisher": "Stonebridge Applied Metrology Service"
+}

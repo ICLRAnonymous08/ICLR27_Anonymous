@@ -1,0 +1,136 @@
+{
+  "case_id": "NAT-087",
+  "validation_tier": "FULL_RAW_RECOMPUTABLE",
+  "target": {
+    "aggregation": "elapsed time until the designated center fruit reaches target temperature",
+    "comparator": "strict <",
+    "condition": "fixed carton pattern, forced-air speed, initial fruit temperature and center thermocouple",
+    "entity": "Strawberry carton SC-8",
+    "formula": "fruit_center_target_crossing_min - cooling_start_min",
+    "metric": "fruit-center precooling time",
+    "target_population": "designated center fruit in each matched carton",
+    "threshold": 90.0,
+    "threshold_rationale": "predeclared precooling-time target",
+    "time_window": "one fresh carton cooling run per acquisition",
+    "unit": "min",
+    "validity_rule": "stop only at fruit-center target crossing; air-temperature crossing is not completion"
+  },
+  "oracle": {
+    "value": 120.0,
+    "truth": "NO",
+    "record": "evaluation_only/oracle/NAT-087.json"
+  },
+  "raw_records": {
+    "S0": "evaluation_only/synthetic_raw_records/NAT-087_S0.json",
+    "H1": "evaluation_only/synthetic_raw_records/NAT-087_H1.json",
+    "H2": "evaluation_only/synthetic_raw_records/NAT-087_H2.json",
+    "H3": "evaluation_only/synthetic_raw_records/NAT-087_H3.json"
+  },
+  "provenance": {
+    "S_shared_origin": "NAT-087-ORI-S0",
+    "H_distinct_origins": [
+      "NAT-087-ORI-H1",
+      "NAT-087-ORI-H2",
+      "NAT-087-ORI-H3"
+    ],
+    "single_S_origin_pass": true,
+    "three_distinct_H_origins_pass": true
+  },
+  "selected_documents": [
+    {
+      "slot_id": "S1",
+      "category": "S",
+      "document_id": "doc-50040bb357950290"
+    },
+    {
+      "slot_id": "S2",
+      "category": "S",
+      "document_id": "doc-9c85d6f26e974284"
+    },
+    {
+      "slot_id": "S3",
+      "category": "S",
+      "document_id": "doc-b1ea47e9759b3400"
+    },
+    {
+      "slot_id": "S4",
+      "category": "S",
+      "document_id": "doc-ecf9eea62ed875c1"
+    },
+    {
+      "slot_id": "S5",
+      "category": "S",
+      "document_id": "doc-8ee238937c67c14a"
+    },
+    {
+      "slot_id": "S6",
+      "category": "S",
+      "document_id": "doc-39a29445c070c241"
+    },
+    {
+      "slot_id": "H1",
+      "category": "H",
+      "document_id": "doc-339e5db5e03eef7c"
+    },
+    {
+      "slot_id": "H2",
+      "category": "H",
+      "document_id": "doc-fe671e42da6c0390"
+    },
+    {
+      "slot_id": "H3",
+      "category": "H",
+      "document_id": "doc-0791632009abb2fd"
+    },
+    {
+      "slot_id": "B01",
+      "category": "B",
+      "document_id": "doc-1da17743831c948f"
+    },
+    {
+      "slot_id": "B02",
+      "category": "B",
+      "document_id": "doc-6ec38a4b2772a70e"
+    },
+    {
+      "slot_id": "B03",
+      "category": "B",
+      "document_id": "doc-693936c993e462d2"
+    },
+    {
+      "slot_id": "B04",
+      "category": "B",
+      "document_id": "doc-505f84bba8ab9f77"
+    },
+    {
+      "slot_id": "B05",
+      "category": "B",
+      "document_id": "doc-38fd74e32d3898b4"
+    },
+    {
+      "slot_id": "B06",
+      "category": "B",
+      "document_id": "doc-31f596c161317cee"
+    },
+    {
+      "slot_id": "B07",
+      "category": "B",
+      "document_id": "doc-075cc550b4334bf8"
+    },
+    {
+      "slot_id": "B08",
+      "category": "B",
+      "document_id": "doc-787bc680d23ba35b"
+    },
+    {
+      "slot_id": "B09",
+      "category": "B",
+      "document_id": "doc-af957db1cc741577"
+    },
+    {
+      "slot_id": "B10",
+      "category": "B",
+      "document_id": "doc-4d68eb9271353969"
+    }
+  ]
+}

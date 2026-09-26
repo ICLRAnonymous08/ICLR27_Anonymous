@@ -1,0 +1,19 @@
+{
+  "acquisition_description": "Meridian Camera Metrology repeats the CAM-51 capture with an independently clocked light source.",
+  "acquisition_id": "NAT-051-ACQ-H2",
+  "computed_result": 18.2,
+  "formula": "last_row_us/1000 - first_row_us/1000",
+  "origin_id": "NAT-051-ORI-H2",
+  "planning_id": "NAT-051",
+  "raw_values": {
+    "first_row_us": 1250,
+    "frame_period_ms": 12.0,
+    "last_row_us": 19450
+  },
+  "record_id": "NAT-051-RAW-H2",
+  "role": "H2",
+  "sample_or_run_id": "NAT-051-RUN-H2",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "shared_event_id": null,
+  "synthetic": true
+}

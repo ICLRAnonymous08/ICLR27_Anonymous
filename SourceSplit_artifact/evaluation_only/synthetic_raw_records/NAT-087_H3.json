@@ -1,0 +1,19 @@
+{
+  "acquisition_description": "Stonebridge Agricultural Test Service documents the full valid run for Strawberry carton SC-8 under the declared target conditions.",
+  "acquisition_id": "NAT-087-ACQ-H3",
+  "computed_result": 121.0,
+  "formula": "fruit_center_target_crossing_min - cooling_start_min",
+  "planning_id": "NAT-087",
+  "raw_values": {
+    "cooling_start_min": 0.0,
+    "fruit_center_target_crossing_min": 121.0
+  },
+  "record_id": "NAT-087-RAW-H3",
+  "role": "H3",
+  "sample_or_run_id": "NAT-087-RUN-H3",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "handling record",
+  "visible_publisher": "Stonebridge Agricultural Test Service"
+}

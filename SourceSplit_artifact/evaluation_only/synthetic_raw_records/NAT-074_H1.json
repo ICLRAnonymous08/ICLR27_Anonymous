@@ -1,0 +1,25 @@
+{
+  "acquisition_description": "Granite Network Operations Laboratory documents the full valid run for Service process P-6 under the declared target conditions.",
+  "acquisition_id": "NAT-074-ACQ-H1",
+  "computed_result": 618,
+  "formula": "max(rss_mib)",
+  "planning_id": "NAT-074",
+  "raw_values": {
+    "rss_mib": [
+      470,
+      500,
+      535,
+      565,
+      595,
+      618
+    ]
+  },
+  "record_id": "NAT-074-RAW-H1",
+  "role": "H1",
+  "sample_or_run_id": "NAT-074-RUN-H1",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "protocol implementation guide",
+  "visible_publisher": "Granite Network Operations Laboratory"
+}

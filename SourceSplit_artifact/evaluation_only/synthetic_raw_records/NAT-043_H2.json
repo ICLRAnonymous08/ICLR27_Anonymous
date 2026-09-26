@@ -1,0 +1,19 @@
+{
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "planning_id": "NAT-043",
+  "role": "H2",
+  "record_id": "NAT-043-RAW-H2",
+  "origin_id": "NAT-043-ORI-H2",
+  "acquisition_id": "NAT-043-ACQ-H2",
+  "sample_or_run_id": "NAT-043-RUN-H2",
+  "synthetic": true,
+  "acquisition_description": "Field team B repeats both dates with an independent electric tape.",
+  "raw_values": {
+    "datum_elevation_m": 102.0,
+    "earlier_depth_m": 6.79,
+    "later_depth_m": 5.98
+  },
+  "formula": "later datum elevation - earlier datum elevation",
+  "computed_result": 0.8100000000000023,
+  "shared_event_id": null
+}

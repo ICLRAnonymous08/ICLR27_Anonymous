@@ -1,0 +1,19 @@
+{
+  "acquisition_description": "Oakridge Field and Quality Laboratory records a complete acquisition for Strawberry carton SC-8 under the declared target conditions.",
+  "acquisition_id": "NAT-087-ACQ-H1",
+  "computed_result": 118.0,
+  "formula": "fruit_center_target_crossing_min - cooling_start_min",
+  "planning_id": "NAT-087",
+  "raw_values": {
+    "cooling_start_min": 0.0,
+    "fruit_center_target_crossing_min": 118.0
+  },
+  "record_id": "NAT-087-RAW-H1",
+  "role": "H1",
+  "sample_or_run_id": "NAT-087-RUN-H1",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "laboratory worksheet",
+  "visible_publisher": "Oakridge Field and Quality Laboratory"
+}

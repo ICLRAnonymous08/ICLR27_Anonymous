@@ -1,0 +1,18 @@
+{
+  "computed_result": 620,
+  "formula": "max(rss_mib)",
+  "planning_id": "NAT-074",
+  "raw_values": {
+    "rss_mib": [
+      480,
+      505,
+      530,
+      560,
+      590,
+      620
+    ]
+  },
+  "record_id": "NAT-074-ORACLE-REF",
+  "schema_version": "echo-controlled-synthetic-oracle-record-v1",
+  "synthetic": true
+}

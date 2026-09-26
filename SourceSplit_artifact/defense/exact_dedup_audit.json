@@ -1,0 +1,14 @@
+{
+  "scope": "released_10_case_baseline_traces",
+  "search_events": 523,
+  "search_events_by_condition": {
+    "C1": 260,
+    "D6": 263
+  },
+  "raw_candidates_per_search": 50,
+  "displayed_candidates_per_search": 8,
+  "searches_with_duplicate_document_ids": 0,
+  "searches_with_duplicate_urls": 0,
+  "searches_with_different_saved_top8": 0,
+  "interpretation": "Exact document-ID or URL deduplication leaves every saved Top-8 list in this released audit subset unchanged; outcomes are inherited from baseline without an extra model call."
+}

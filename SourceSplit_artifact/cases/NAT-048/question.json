@@ -1,0 +1,5 @@
+{
+  "case_id": "NAT-048",
+  "question": "Determine whether the following proposition is true.\nEntity: Earbuds EB-48\nMetric: continuous playback time\nCondition: 50% volume, fixed 256-kbps playlist, ANC enabled, fully charged pair, no pause\nTime window: one uninterrupted discharge run per acquisition\nTarget population: matched EB-48 pairs under the locked firmware/configuration\nAggregation: elapsed active-playback time from full charge to first-earbud playback stop\nValidity rule: exclude any paused interval and stop when the first earbud ceases playback\nComparison: strict < 6.0 h",
+  "question_sha256": "09c79bc1e10b8bc3c10d6dfe027d819299c95df7c71eb2aab7eeb586ec81e3d6"
+}

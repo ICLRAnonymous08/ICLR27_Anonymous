@@ -1,0 +1,13 @@
+{
+  "schema_version": "echo-controlled-synthetic-oracle-record-v2",
+  "planning_id": "NAT-043",
+  "record_id": "NAT-043-ORACLE-REF",
+  "synthetic": true,
+  "raw_values": {
+    "datum_elevation_m": 102.0,
+    "earlier_depth_m": 6.8,
+    "later_depth_m": 6.0
+  },
+  "formula": "later datum elevation - earlier datum elevation",
+  "computed_result": 0.7999999999999972
+}

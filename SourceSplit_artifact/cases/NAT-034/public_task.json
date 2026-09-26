@@ -1,0 +1,6 @@
+{
+  "entity": "Dryer DR-6",
+  "metric": "specific energy per kilogram of water removed",
+  "threshold": 2.5,
+  "comparator": "strict >"
+}

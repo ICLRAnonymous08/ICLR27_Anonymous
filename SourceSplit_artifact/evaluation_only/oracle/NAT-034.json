@@ -1,0 +1,14 @@
+{
+  "schema_version": "echo-controlled-synthetic-oracle-record-v2",
+  "planning_id": "NAT-034",
+  "record_id": "NAT-034-ORACLE-REF",
+  "synthetic": true,
+  "raw_values": {
+    "energy_kWh": 6.0,
+    "initial_water_kg": 3.5,
+    "final_water_kg": 1.5,
+    "wet_feed_kg": 100
+  },
+  "formula": "energy_kWh / (initial_water_kg-final_water_kg)",
+  "computed_result": 3.0
+}

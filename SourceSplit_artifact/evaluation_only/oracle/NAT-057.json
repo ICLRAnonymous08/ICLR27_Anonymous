@@ -1,0 +1,32 @@
+{
+  "schema_version": "echo-controlled-synthetic-oracle-record-v2",
+  "planning_id": "NAT-057",
+  "record_id": "NAT-057-ORACLE-REF",
+  "synthetic": true,
+  "raw_values": {
+    "queue_vehicles": [
+      4,
+      5,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      15
+    ]
+  },
+  "formula": "p95(complete_queue_vehicles)",
+  "computed_result": 14
+}

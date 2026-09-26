@@ -1,0 +1,20 @@
+{
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "planning_id": "NAT-034",
+  "role": "H3",
+  "record_id": "NAT-034-RAW-H3",
+  "origin_id": "NAT-034-ORI-H3",
+  "acquisition_id": "NAT-034-ACQ-H3",
+  "sample_or_run_id": "NAT-034-RUN-H3",
+  "synthetic": true,
+  "acquisition_description": "Operations audit C repeats the recipe and closes its own mass and energy balance.",
+  "raw_values": {
+    "energy_kWh": 5.8,
+    "initial_water_kg": 3.4,
+    "final_water_kg": 1.48,
+    "wet_feed_kg": 99
+  },
+  "formula": "energy_kWh / (initial_water_kg-final_water_kg)",
+  "computed_result": 3.0208333333333335,
+  "shared_event_id": null
+}

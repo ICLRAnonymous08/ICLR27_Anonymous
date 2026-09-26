@@ -1,0 +1,17 @@
+{
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "planning_id": "NAT-025",
+  "role": "H1",
+  "record_id": "NAT-025-RAW-H1",
+  "acquisition_id": "NAT-025-ACQ-H1",
+  "sample_or_run_id": "NAT-025-RUN-H1",
+  "synthetic": true,
+  "acquisition_description": "Cell-integrator team logs final placement state for every initiated trial.",
+  "raw_values": {
+    "initiated_trials": 50,
+    "complete_placements": 44
+  },
+  "formula": "100 * complete_placements / initiated_trials",
+  "computed_result": 88.0,
+  "shared_event_id": null
+}

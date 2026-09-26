@@ -1,0 +1,18 @@
+{
+  "acquisition_description": "Riverside Commissioning Services records a complete acquisition for Outlet fitting F-9 under the declared target conditions.",
+  "acquisition_id": "NAT-083-ACQ-H2",
+  "computed_result": 9.6377108,
+  "formula": "flow_uk_gpm * 4.54609",
+  "planning_id": "NAT-083",
+  "raw_values": {
+    "flow_uk_gpm": 2.12
+  },
+  "record_id": "NAT-083-RAW-H2",
+  "role": "H2",
+  "sample_or_run_id": "NAT-083-RUN-H2",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "metering summary",
+  "visible_publisher": "Riverside Commissioning Services"
+}

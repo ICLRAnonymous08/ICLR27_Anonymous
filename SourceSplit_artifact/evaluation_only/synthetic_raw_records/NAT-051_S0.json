@@ -1,0 +1,23 @@
+{
+  "schema_version": "echo-controlled-synthetic-s0-record-v2",
+  "planning_id": "NAT-051",
+  "role": "S0",
+  "record_id": "NAT-051-RAW-S0",
+  "origin_id": "NAT-051-ORI-S0",
+  "acquisition_id": "NAT-051-ACQ-S0",
+  "synthetic": true,
+  "raw_values": {
+    "first_row_us": 1200,
+    "last_row_us": 19200,
+    "frame_period_ms": 12.0
+  },
+  "correct_reduction": {
+    "formula": "last_row_us/1000 - first_row_us/1000",
+    "result": 18.0
+  },
+  "wrong_reduction": {
+    "formula": "frame_period_ms mislabeled readout span",
+    "result": 12.0
+  },
+  "hidden_error": "Mislabeled the frame period or a record from another mode as the readout duration for the current mode."
+}

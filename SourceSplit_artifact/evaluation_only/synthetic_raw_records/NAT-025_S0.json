@@ -1,0 +1,22 @@
+{
+  "schema_version": "echo-controlled-synthetic-s0-record-v1",
+  "planning_id": "NAT-025",
+  "role": "S0",
+  "record_id": "NAT-025-RAW-S0",
+  "acquisition_id": "NAT-025-ACQ-S0",
+  "synthetic": true,
+  "raw_values": {
+    "initiated_trials": 50,
+    "initial_liftoffs": 48,
+    "complete_placements": 44
+  },
+  "correct_reduction": {
+    "formula": "100 * complete_placements / initiated_trials",
+    "result": 88.0
+  },
+  "wrong_reduction": {
+    "formula": "100 * initial_liftoffs / initiated_trials",
+    "result": 96.0
+  },
+  "hidden_error": "Counted initial lift-off as a completed pick-transfer-place success, omitting drops during transfer."
+}

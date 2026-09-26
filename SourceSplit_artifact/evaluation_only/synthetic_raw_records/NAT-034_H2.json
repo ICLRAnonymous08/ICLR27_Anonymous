@@ -1,0 +1,20 @@
+{
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "planning_id": "NAT-034",
+  "role": "H2",
+  "record_id": "NAT-034-RAW-H2",
+  "origin_id": "NAT-034-ORI-H2",
+  "acquisition_id": "NAT-034-ACQ-H2",
+  "sample_or_run_id": "NAT-034-RUN-H2",
+  "synthetic": true,
+  "acquisition_description": "Pilot dryer B runs a separately prepared batch with an independent energy meter.",
+  "raw_values": {
+    "energy_kWh": 6.2,
+    "initial_water_kg": 3.6,
+    "final_water_kg": 1.55,
+    "wet_feed_kg": 101
+  },
+  "formula": "energy_kWh / (initial_water_kg-final_water_kg)",
+  "computed_result": 3.0243902439024395,
+  "shared_event_id": null
+}

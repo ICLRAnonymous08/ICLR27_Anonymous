@@ -1,0 +1,38 @@
+{
+  "acquisition_description": "Central Traffic Survey manually counts complete-lane queues on IA-57 for a fresh cycle set.",
+  "acquisition_id": "NAT-057-ACQ-H1",
+  "computed_result": 14,
+  "formula": "p95(complete_queue_vehicles)",
+  "origin_id": "NAT-057-ORI-H1",
+  "planning_id": "NAT-057",
+  "raw_values": {
+    "queue_vehicles": [
+      4,
+      5,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      15
+    ]
+  },
+  "record_id": "NAT-057-RAW-H1",
+  "role": "H1",
+  "sample_or_run_id": "NAT-057-RUN-H1",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "shared_event_id": null,
+  "synthetic": true
+}

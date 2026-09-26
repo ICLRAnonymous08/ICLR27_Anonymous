@@ -1,0 +1,38 @@
+{
+  "acquisition_description": "Aerial Street Metrics repeats the IA-57 window with independent full-approach imagery.",
+  "acquisition_id": "NAT-057-ACQ-H2",
+  "computed_result": 14,
+  "formula": "p95(complete_queue_vehicles)",
+  "origin_id": "NAT-057-ORI-H2",
+  "planning_id": "NAT-057",
+  "raw_values": {
+    "queue_vehicles": [
+      3,
+      5,
+      5,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      14,
+      16
+    ]
+  },
+  "record_id": "NAT-057-RAW-H2",
+  "role": "H2",
+  "sample_or_run_id": "NAT-057-RUN-H2",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "shared_event_id": null,
+  "synthetic": true
+}

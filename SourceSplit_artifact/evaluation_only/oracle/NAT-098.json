@@ -1,0 +1,12 @@
+{
+  "schema_version": "echo-controlled-synthetic-oracle-record-v1",
+  "planning_id": "NAT-098",
+  "record_id": "NAT-098-ORACLE-REF",
+  "synthetic": true,
+  "raw_values": {
+    "mass_gain_g": 4.5,
+    "area_m2": 0.1
+  },
+  "formula": "mass_gain_g / exposed_area_m2",
+  "computed_result": 45.0
+}

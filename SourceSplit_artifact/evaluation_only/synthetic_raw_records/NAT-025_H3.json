@@ -1,0 +1,17 @@
+{
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "planning_id": "NAT-025",
+  "role": "H3",
+  "record_id": "NAT-025-RAW-H3",
+  "acquisition_id": "NAT-025-ACQ-H3",
+  "sample_or_run_id": "NAT-025-RUN-H3",
+  "synthetic": true,
+  "acquisition_description": "Maintenance validation team performs a fresh locked-recipe trial set with its own event log.",
+  "raw_values": {
+    "initiated_trials": 75,
+    "complete_placements": 66
+  },
+  "formula": "100 * complete_placements / initiated_trials",
+  "computed_result": 88.0,
+  "shared_event_id": null
+}

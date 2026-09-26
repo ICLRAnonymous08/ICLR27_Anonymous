@@ -1,0 +1,19 @@
+{
+  "acquisition_description": "Northlight Imaging Laboratory records a fresh LED timing-pattern frame from CAM-51.",
+  "acquisition_id": "NAT-051-ACQ-H1",
+  "computed_result": 17.9,
+  "formula": "last_row_us/1000 - first_row_us/1000",
+  "origin_id": "NAT-051-ORI-H1",
+  "planning_id": "NAT-051",
+  "raw_values": {
+    "first_row_us": 1100,
+    "frame_period_ms": 12.0,
+    "last_row_us": 19000
+  },
+  "record_id": "NAT-051-RAW-H1",
+  "role": "H1",
+  "sample_or_run_id": "NAT-051-RUN-H1",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v2",
+  "shared_event_id": null,
+  "synthetic": true
+}

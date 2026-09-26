@@ -1,0 +1,12 @@
+{
+  "computed_result": 120.0,
+  "formula": "fruit_center_target_crossing_min - cooling_start_min",
+  "planning_id": "NAT-087",
+  "raw_values": {
+    "cooling_start_min": 0.0,
+    "fruit_center_target_crossing_min": 120.0
+  },
+  "record_id": "NAT-087-ORACLE-REF",
+  "schema_version": "echo-controlled-synthetic-oracle-record-v1",
+  "synthetic": true
+}

@@ -1,0 +1,21 @@
+{
+  "benchmark": "ECHO-WEB",
+  "artifact_scope": "10-case qualitative audit subset",
+  "conditions": {
+    "C1": "Single-Surface; one target-origin page",
+    "D6": "SourceSplit (B=6); six same-origin descendant pages"
+  },
+  "rendering_policy": {
+    "C1": {"target_origin": "grouped rendering; only S1 visible"},
+    "D6": {"target_origin": "distributed rendering; S1-S6 visible"},
+    "non_target_documents": "identical across renderings"
+  },
+  "independent_target_origins_per_condition": 1,
+  "agents": ["A", "B", "C"],
+  "repeats_per_case_condition": 5,
+  "retrieval": {"engine": "BM25", "candidate_pool": 50, "displayed_results": 8},
+  "agent_budget": {"initial_searches": 1, "additional_searches_max": 1, "page_opens_max": 2},
+  "model_public_name": "DeepSeek v4 Flash",
+  "prompt_bundle": "traces/prompt_bundle.json",
+  "visibility_manifest": "cases/NAT-*/visibility.json"
+}

@@ -1,0 +1,64 @@
+{
+  "public_model_name": "DeepSeek v4 Flash",
+  "backend_specific_alias_stage": [
+    {
+      "file": "defense/paper_methods/cross_agent_relay_quota/agent_traces.jsonl",
+      "normalized_model_metadata_rows": 20,
+      "pre_sanitization_assembled_sha256": "bcb1dd51c891773390761ba660dc119b3b8ca3531df1e0418c85e0caab3a8759",
+      "intermediate_sha256": "d8240d6c43c99d531d69c985dffa9d6d85c1225c24f0630f8ca540332141dc4b"
+    },
+    {
+      "file": "defense/paper_methods/cross_agent_relay_quota/coordinator_outputs.jsonl",
+      "normalized_model_metadata_rows": 10,
+      "pre_sanitization_assembled_sha256": "6c85271bf688f910a2f85e107942b04dd969ecf7d64f1f4e030f3fdb3c90e546",
+      "intermediate_sha256": "5ae90a7e53a61b7834535c285b062c5332a5144c929c3849c1af40411fa90e70"
+    }
+  ],
+  "repository_alias_stage": [
+    {
+      "file": "traces/api_requests.jsonl",
+      "normalized_model_fields": 1192,
+      "updated_request_hash_fields": 1192,
+      "before_sha256": "0b950f8e231139cb478ed3f5f24e1fe73b635f19136fc05195b8d340047ba5c7",
+      "after_sha256": "ff5d504eb2fcf17a9ca33a9aa77b99f93afb57d108249656a574889315f483cc"
+    },
+    {
+      "file": "traces/api_responses.jsonl",
+      "normalized_model_fields": 1192,
+      "updated_request_hash_fields": 1192,
+      "before_sha256": "5dec2c6779a72458b3114c59667206c0ec3835843c64f77f8b929dca16e0b395",
+      "after_sha256": "03dec5eebef4a0549a9bd8fd0f79a839bbded7e5585a41501c33d5a49ba8700c"
+    },
+    {
+      "file": "traces/agent_traces.jsonl",
+      "normalized_model_fields": 300,
+      "updated_request_hash_fields": 0,
+      "before_sha256": "7b4f4b6ef1ed639486ad900b7588a00babb15df6f9d3f3afa5427075ed9e2316",
+      "after_sha256": "e308628d648ae568ee30509a200132875762669d046febbf42cea834225b165e"
+    },
+    {
+      "file": "traces/coordinator_outputs.jsonl",
+      "normalized_model_fields": 96,
+      "updated_request_hash_fields": 0,
+      "before_sha256": "2c38b862c31ade939cef6b3ca7701f6cada297078a989ab1930bf520d41ba89b",
+      "after_sha256": "a39abf00c070b6ad5eee496a93f6a308dfa7bf9b734ad0f33746010c19f77fe1"
+    },
+    {
+      "file": "defense/paper_methods/cross_agent_relay_quota/agent_traces.jsonl",
+      "normalized_model_fields": 280,
+      "updated_request_hash_fields": 0,
+      "before_sha256": "d8240d6c43c99d531d69c985dffa9d6d85c1225c24f0630f8ca540332141dc4b",
+      "after_sha256": "a7b7d7445ebeee55dfdcfb33a5b0b8f30d282f589e762ef6273ab58cddeb4081"
+    },
+    {
+      "file": "defense/paper_methods/cross_agent_relay_quota/coordinator_outputs.jsonl",
+      "normalized_model_fields": 88,
+      "updated_request_hash_fields": 0,
+      "before_sha256": "5ae90a7e53a61b7834535c285b062c5332a5144c929c3849c1af40411fa90e70",
+      "after_sha256": "37faedad8d85f3edf7b2ef06f1636f12b7ad273aff865aafbbadeb492e29b0db"
+    }
+  ],
+  "request_payload_hashes_recomputed": 1192,
+  "model_fields_normalized_in_repository_alias_stage": 3148,
+  "note": "Only model identifier fields and linked request_sha256 fields were changed in the review-facing copy."
+}

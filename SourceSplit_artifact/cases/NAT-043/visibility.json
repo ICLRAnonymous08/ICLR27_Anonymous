@@ -1,0 +1,40 @@
+{
+  "C1 / Single-Surface": [
+    "doc-c5929e783cb915c6",
+    "doc-ef863dd14b1d6693",
+    "doc-6af661fa2775deab",
+    "doc-c2cea5b7b09fa8cf",
+    "doc-0361576528ecdd53",
+    "doc-460515a413cf7294",
+    "doc-5d795588275e530e",
+    "doc-ec7cfad36389b7a6",
+    "doc-aca68bb13a3a5c07",
+    "doc-9d97667ddc7836c5",
+    "doc-2c52c1e50fadca1c",
+    "doc-72db3f4fbd34f997",
+    "doc-af827e28f5fdef89",
+    "doc-ba0590f639099b47"
+  ],
+  "D6 / SourceSplit (B=6)": [
+    "doc-c5929e783cb915c6",
+    "doc-599c6b2e477638bd",
+    "doc-a9b7c8787cab0c3e",
+    "doc-2eb645fc95ff636b",
+    "doc-554ccdc5f5fea5c0",
+    "doc-e569fc005329b693",
+    "doc-ef863dd14b1d6693",
+    "doc-6af661fa2775deab",
+    "doc-c2cea5b7b09fa8cf",
+    "doc-0361576528ecdd53",
+    "doc-460515a413cf7294",
+    "doc-5d795588275e530e",
+    "doc-ec7cfad36389b7a6",
+    "doc-aca68bb13a3a5c07",
+    "doc-9d97667ddc7836c5",
+    "doc-2c52c1e50fadca1c",
+    "doc-72db3f4fbd34f997",
+    "doc-af827e28f5fdef89",
+    "doc-ba0590f639099b47"
+  ],
+  "note": "This lists visibility among this case's 19 released documents. The original retrieval corpus also contained documents from other cases. DOCUMENT_RECORDS.jsonl is a document store, not a literal model prompt."
+}

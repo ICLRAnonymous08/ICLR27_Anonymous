@@ -1,0 +1,25 @@
+{
+  "acquisition_description": "Cedar Protocol Engineering Service measures the locked endpoint for Service process P-6 under the declared target conditions.",
+  "acquisition_id": "NAT-074-ACQ-H3",
+  "computed_result": 615,
+  "formula": "max(rss_mib)",
+  "planning_id": "NAT-074",
+  "raw_values": {
+    "rss_mib": [
+      465,
+      495,
+      525,
+      555,
+      585,
+      615
+    ]
+  },
+  "record_id": "NAT-074-RAW-H3",
+  "role": "H3",
+  "sample_or_run_id": "NAT-074-RUN-H3",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "capacity review memorandum",
+  "visible_publisher": "Cedar Protocol Engineering Service"
+}

@@ -1,0 +1,25 @@
+{
+  "acquisition_description": "Northfield Platform Measurement Centre records a complete acquisition for Service process P-6 under the declared target conditions.",
+  "acquisition_id": "NAT-074-ACQ-H2",
+  "computed_result": 625,
+  "formula": "max(rss_mib)",
+  "planning_id": "NAT-074",
+  "raw_values": {
+    "rss_mib": [
+      475,
+      510,
+      540,
+      570,
+      600,
+      625
+    ]
+  },
+  "record_id": "NAT-074-RAW-H2",
+  "role": "H2",
+  "sample_or_run_id": "NAT-074-RUN-H2",
+  "schema_version": "echo-controlled-synthetic-acquisition-record-v1",
+  "shared_event_id": null,
+  "synthetic": true,
+  "visible_page_product": "service release advisory",
+  "visible_publisher": "Northfield Platform Measurement Centre"
+}

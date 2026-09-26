@@ -1,0 +1,5 @@
+{
+  "case_id": "NAT-098",
+  "question": "Determine whether the following proposition is true.\nEntity: Recycled linerboard RB-9\nMetric: surface water absorption\nCondition: specified side, conditioned sheet, 60-second exposure and 0.10 m² clamp\nTime window: one fresh sheet specimen per acquisition\nTarget population: valid exposed specimens from the locked paper lot\nAggregation: mass gain / exposed area\nValidity rule: use the area of the actual clamp and preserve tare/dry/wet masses\nComparison: strict > 40.0 g/m²",
+  "question_sha256": "12d3495aa7f3e019952aae818cb2f1d727df6a28248192529ff8faf5da5de9a5"
+}

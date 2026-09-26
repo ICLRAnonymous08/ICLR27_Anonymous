@@ -1,0 +1,39 @@
+{
+  "acquisition_id": "NAT-074-ACQ-S0",
+  "correct_reduction": {
+    "formula": "max(rss_mib)",
+    "result": 620
+  },
+  "correct_reference": {
+    "oracle_record": "evaluation_only/oracle/NAT-074.json",
+    "oracle_result": 620
+  },
+  "hidden_error": "Exported only language-runtime heap usage and mislabeled it as total resident memory.",
+  "planning_id": "NAT-074",
+  "raw_values": {
+    "rss_mib": [
+      480,
+      505,
+      530,
+      560,
+      590,
+      620
+    ],
+    "runtime_heap_mib": [
+      280,
+      300,
+      320,
+      340,
+      360,
+      380
+    ]
+  },
+  "record_id": "NAT-074-RAW-S0",
+  "role": "S0",
+  "schema_version": "echo-controlled-synthetic-s0-record-v1",
+  "synthetic": true,
+  "wrong_reduction": {
+    "formula": "max(runtime_heap_mib)",
+    "result": 380
+  }
+}

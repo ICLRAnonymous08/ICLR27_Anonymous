@@ -1,0 +1,5 @@
+{
+  "case_id": "NAT-083",
+  "question": "Determine whether the following proposition is true.\nEntity: Outlet fitting F-9\nMetric: steady outlet flow\nCondition: specified supply pressure, fully open operating state and stabilized collection\nTime window: one timed steady-flow collection per acquisition\nTarget population: all collected water during the timed interval\nAggregation: imperial gallons per minute × 4.54609 L/imperial gallon\nValidity rule: record gallon convention explicitly and use the matching conversion factor\nComparison: strict > 9.0 L/min",
+  "question_sha256": "c38a3f4f6e71b5781999c26c9fa9ad6dbc3b6ddf3542d5a18f6101f34732d1da"
+}

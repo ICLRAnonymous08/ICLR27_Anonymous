@@ -1,0 +1,5 @@
+{
+  "case_id": "NAT-043",
+  "question": "Determine whether the following proposition is true.\nEntity: Monitoring well GW-11\nMetric: water-level elevation change\nCondition: same well and common surveyed vertical datum\nTime window: two locked measurement dates\nTarget population: manual tape measurements after stabilization on both dates\nAggregation: later water elevation minus earlier water elevation\nValidity rule: apply the same measuring-point correction and datum on both dates\nComparison: strict > 0.5 m",
+  "question_sha256": "fc45ab11f9dd8b72a9ea6ee52fb649ef40254ce70ed5fe3d880f36d5889b72a1"
+}
